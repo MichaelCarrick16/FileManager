@@ -11,4 +11,19 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="background_icon_home">#ff9933</color>
+    <color name="gray_div_2">#f6f6f6</color>
+    <color name="yellow">#f8ec7d</color>
+    <color name="orange">#dbab2d</color>
+    <color name="gray_black">#97989a</color>
+    <color name="gray_black_nhat">#c9c8cd</color>
+    <color name="gray_background_edittext">#e4e3e9</color>
+    <color name="red">#f05a3c</color>
+    <color name="orange_home">#f2a252</color>
+    <color name="blue">#1a1aff</color>
+    <color name="green">#47d147</color>
+    <color name="background_bottom_sheet">#656565</color>
+    <color name="brown">#b37700</color>
+    <color name="background_icon">#ff9933</color>
+
 </resources>

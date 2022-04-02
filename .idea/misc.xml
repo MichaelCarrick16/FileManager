@@ -11,13 +11,24 @@
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/background.xml" value="0.211" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/background_xml.xml" value="0.211" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/button_background.xml" value="0.211" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/custom_button_background_login.xml" value="0.1565" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/custom_edittext_home.xml" value="0.1565" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/ic_gold_medal.xml" value="0.211" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1565" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/ic_login.xml" value="0.1565" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/ic_search_home.xml" value="0.1565" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/login_background_xml.xml" value="0.1565" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/drawable/login_button_background.xml" value="0.1565" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/act_account.xml" value="0.25" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/act_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/act_splash.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/frag_home.xml" value="0.25" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/frag_login.xml" value="0.1" />
         <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/frag_register.xml" value="0.25" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/layout_action_bar_top_home.xml" value="0.22" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/layout_bottom_home.xml" value="0.25" />
+        <entry key="..\:/Users/Hiep-PC/OneDrive/Documents/FileManager/app/src/main/res/layout/layout_top_home.xml" value="0.25" />
       </map>
     </option>
   </component>

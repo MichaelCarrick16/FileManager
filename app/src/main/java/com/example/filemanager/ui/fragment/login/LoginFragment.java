@@ -5,9 +5,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.filemanager.MainActivity;
+import com.example.filemanager.ui.activities.main.MainAct;
 import com.example.filemanager.R;
 import com.example.filemanager.base.BaseFragment;
 import com.example.filemanager.ui.callback.OnActionNavigateFragment;
@@ -45,7 +44,7 @@ public class LoginFragment extends BaseFragment<LoginViewModel> {
         btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getActivity(), MainActivity.class);
+                Intent i = new Intent(getActivity(), MainAct.class);
                 startActivity(i);
             }
         });

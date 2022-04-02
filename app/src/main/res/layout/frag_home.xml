@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray">
+
+    <include
+        android:id="@+id/include_top_home"
+        layout="@layout/layout_top_home"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <include
+        android:id="@+id/include_bottom_home"
+        layout="@layout/layout_bottom_home"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollview_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/include_bottom_home"
+        app:layout_constraintTop_toBottomOf="@id/include_top_home"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/normal"
+                android:fontFamily="@font/bold"
+                android:textColor="@color/black"
+                android:text="@string/folder_home"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edt_search_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/normal"
+                android:layout_marginTop="@dimen/normal"
+                android:layout_marginEnd="@dimen/normal"
+                android:background="@drawable/custom_edittext_home"
+                android:drawableStart="@drawable/ic_search_home"
+                android:drawablePadding="10dp"
+                android:hint="Search"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:fontFamily="@font/regular"
+                android:textColorHint="@color/gray_black"
+                android:inputType="textNoSuggestions"/>
+
+            <TextView
+                android:id="@+id/tv_pinned_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/normal"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/medium"
+                android:text="@string/pinned_home"
+                android:textSize="20dp"
+                android:visibility="visible" />
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

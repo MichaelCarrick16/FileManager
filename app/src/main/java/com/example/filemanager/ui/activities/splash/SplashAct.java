@@ -2,10 +2,7 @@ package com.example.filemanager.ui.activities.splash;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.view.Window;
-import android.view.WindowManager;
 
-import com.example.filemanager.MainActivity;
 import com.example.filemanager.R;
 import com.example.filemanager.base.BaseActivity;
 import com.example.filemanager.ui.activities.account.AccountAct;

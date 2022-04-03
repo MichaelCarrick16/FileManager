@@ -12,5 +12,7 @@
     <string name="back_home">Back</string>
     <string name="default_folder">0 folders</string>
     <string name="folder_home">Folders</string>
-    <string name="pinned_home">Pinned</string>
+    <string name="folders_home">Folders</string>
+    <string name="no_folders">No Folders</string>
+
 </resources>

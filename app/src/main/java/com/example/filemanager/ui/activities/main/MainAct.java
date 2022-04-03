@@ -2,9 +2,10 @@ package com.example.filemanager.ui.activities.main;
 
 import com.example.filemanager.R;
 import com.example.filemanager.base.BaseActivity;
+import com.example.filemanager.ui.callback.OnClickButtonBack;
 import com.example.filemanager.ui.fragment.home.HomeFragment;
 
-public class MainAct extends BaseActivity<MainViewModel> {
+public class MainAct extends BaseActivity<MainViewModel> implements OnClickButtonBack {
     private HomeFragment homeFragment;
 
     @Override
@@ -24,6 +25,12 @@ public class MainAct extends BaseActivity<MainViewModel> {
 
     private void showHomeFragment() {
         homeFragment = new HomeFragment();
+        homeFragment.setOnClickButtonBack(this);
         showFragment(R.id.frame_layout_main,homeFragment,false);
+    }
+
+    @Override
+    public void onBack() {
+        finish();
     }
 }

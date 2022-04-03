@@ -32,7 +32,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_default"
+                android:id="@+id/tv_default_home_v1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/normal"
@@ -59,18 +59,46 @@
                 android:inputType="textNoSuggestions"/>
 
             <TextView
-                android:id="@+id/tv_pinned_home"
+                android:id="@+id/tv_default_home_v2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/normal"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/medium"
-                android:text="@string/pinned_home"
-                android:textSize="20dp"
-                android:visibility="visible" />
+                android:text="@string/folders_home"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_no_folders_home"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="@dimen/normal"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="@dimen/normal"
+                android:background="@drawable/custom_textview_no_folders_home"
+                android:gravity="center"
+                android:text="@string/no_folders"
+                android:fontFamily="@font/medium"
+                android:textSize="20dp" />
 
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_folders_search_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/normal"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="@dimen/normal"
+                android:visibility="gone"/>
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_folders_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/normal"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="@dimen/normal"
+                />
 
 
         </LinearLayout>

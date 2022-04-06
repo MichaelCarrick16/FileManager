@@ -14,5 +14,10 @@
     <string name="folder_home">Folders</string>
     <string name="folders_home">Folders</string>
     <string name="no_folders">No Folders</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sort_a_to_z">Sort A to Z</string>
+    <string name="sort_z_to_a">Sort Z to A</string>
+    <string name="sort_time">Sort by time</string>
+    <string name="cancel">Cancel</string>
 
 </resources>

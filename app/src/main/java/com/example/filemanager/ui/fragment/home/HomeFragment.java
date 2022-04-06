@@ -1,7 +1,9 @@
 package com.example.filemanager.ui.fragment.home;
 
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.widget.NestedScrollView;
@@ -9,6 +11,7 @@ import androidx.core.widget.NestedScrollView;
 import com.example.filemanager.R;
 import com.example.filemanager.base.BaseFragment;
 import com.example.filemanager.ui.callback.OnClickButtonBack;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 public class HomeFragment extends BaseFragment<HomeViewModel> {
     private ConstraintLayout constrainLayoutBackHome , constraintLayoutSortHome;
@@ -38,6 +41,18 @@ public class HomeFragment extends BaseFragment<HomeViewModel> {
             @Override
             public void onClick(View view) {
                 onClickButtonBack.onBack();
+            }
+        });
+
+        
+        constraintLayoutSortHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                View viewDialog = LayoutInflater.from(getContext()).inflate(R.layout.layout_bottom_sheet_home,null);
+                BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(getContext(),R.style.SheetDialog);
+                bottomSheetDialog.setContentView(viewDialog);
+                bottomSheetDialog.show();
+
             }
         });
     }

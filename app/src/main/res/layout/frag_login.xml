@@ -7,14 +7,17 @@
     android:background="@drawable/login_background_xml"
     tools:context="com.example.filemanager.ui.activities.account.AccountAct">
 
-    <ImageView
+    <TextView
         android:id="@+id/logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/ic_login"
+        android:fontFamily="@font/righteous"
+        android:text="@string/sign_in"
+        android:textColor="@android:color/white"
+        android:textSize="64sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
